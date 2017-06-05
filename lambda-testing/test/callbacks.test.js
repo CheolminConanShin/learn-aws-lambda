@@ -25,7 +25,7 @@ describe('LambdaTest', function(){
   it("LambdaTest: returns value when given event with key1 property", function(done) {
 
     function test(result){
-      expect(result).to.equal("name")
+      expect(result).to.equal("hello name")
       done();
     }
     var context = contextCreator(test);
