@@ -34,3 +34,7 @@ LambdaTest.zip
 dist/
 admin.env
 .env
+
+*.iml
+*.xml
+.idea
